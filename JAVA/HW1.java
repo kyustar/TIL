@@ -10,8 +10,9 @@ public class HW1 {
 	
 		int num = random.nextInt(10) + 1;
 	
-		for (int i = 0; i < num; i++) {
-			for(int j = 0; j <= i; j++) {
+		for (int row = 0; row < num; row++) {
+			int size = row;
+			for(int col = 0; col <= size; col++) {
 				System.out.print("*");
 			}
 			System.out.println("");
