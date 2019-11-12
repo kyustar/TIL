@@ -2,7 +2,8 @@ import java.util.Scanner;
 
 public class Pyramid{
 	public static void main(String[] args) {
-		int row,col;
+		int row;
+		int col;
 		int half;
 
 		while(true) {
